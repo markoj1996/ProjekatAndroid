@@ -6,4 +6,107 @@
     android:layout_height="match_parent"
     tools:context="com.example.marko.projekat.CreatePostActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Title:"
+                android:textSize="14dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/titleET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/descTV"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textSize="14dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/descET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/photoTV"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Photo:"
+                android:textSize="14dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/photoET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tagsTV"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Tags:"
+                android:textSize="14dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/tagsET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:layout_marginLeft="130dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
